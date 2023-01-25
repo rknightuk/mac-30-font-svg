@@ -78,3 +78,15 @@ header p {
 .mac--info p:first-child {
     height: 50px;
 }
+
+@media (max-width: 445px)
+{
+    .mac {
+        width: 50%;
+        margin: 0;
+    }
+    .mac svg {
+        width: 100px;
+        height: 100px;
+    }
+}
