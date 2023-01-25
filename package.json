@@ -1,0 +1,20 @@
+{
+  "name": "mac-30th-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/eleventy --serve",
+    "build": "rm -rf docs/* && ./node_modules/.bin/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "eleventy-plugin-svg-sprite": "^2.1.0"
+  }
+}

@@ -1,0 +1,80 @@
+:root {
+    --links: #3bc9db;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --links: #3bc9db;
+    }
+}
+
+body {
+    max-width: 1400px;
+}
+
+.macs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.mac {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    border-bottom: 1px solid var(--text-muted);
+    width: 200px;
+    position: relative;
+    margin-right: 5px;
+}
+
+
+@keyframes color-change {
+    0% { color: #61BB46; }
+    20% {  color: #FDB827; }
+    40% {  color: #F5821F; }
+    60% {  color: #E03A3E; }
+    80% {  color: #963D97; }
+    100% {  color: #009DDC; }
+}
+
+.mac:hover {
+    animation: color-change 4s infinite;
+}
+
+.mac svg {
+    width: 150px;
+    height: 150px;
+}
+
+header h1 {
+    display: inline;
+    background: linear-gradient(90deg,
+            rgba(120, 185, 26, 1) 0%,
+            rgba(242, 186, 75, 1) 20%,
+            rgba(229, 136, 59, 1) 40%,
+            rgba(206, 72, 69, 1) 60%,
+            rgba(139, 66, 147, 1) 80%,
+            rgba(70, 155, 214, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+.mac--icon {
+    /* border: 1px solid orange */
+}
+
+.mac--info {
+    margin-top: 10px;
+    /* border: 1px solid green; */
+}
+
+.mac--info p:first-child {
+    height: 50px;
+}
