@@ -56,6 +56,7 @@
     { "year": "2006", "name": "MacBook", "key": "macbook-20062009" },
     { "year": "2007", "name": "iMac", "key": "2007-imac" },
     { "year": "2008", "name": "MacBook Air", "key": "macbook-air-2008" },
+    { "year": "2008", "name": "MacBook Pro", "key": "macbook-pro-2011" },
     { "year": "2009", "name": "iMac", "key": "2009-imac" },
     { "year": "2009", "name": "Mac Mini Server", "key": "mac-mini-server" },
     { "year": "2010", "name": "Mac Mini", "key": "mac-mini-2010" },
@@ -63,7 +64,6 @@
     { "year": "2010", "name": "MacBook Air 13\"", "key": "macbook-air-1" },
     { "year": "2010", "name": "MacBook", "key": "2010-macbook" },
     { "year": "2011", "name": "Mac Mini", "key": "mac-mini-2011" },
-    { "year": "2011", "name": "MacBook Pro", "key": "macbook-pro-2011" },
     { "year": "2012", "name": "iMac", "key": "2012-imac" },
     { "year": "2012", "name": "Retina MacBook Pro", "key": "retina-macbook-pro" },
     { "year": "2013", "name": "Mac Pro", "key": "mac-pro-2013" }
